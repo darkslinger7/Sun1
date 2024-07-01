@@ -51,6 +51,8 @@ int main() {
     cout << "Monto total a pagar: $" << montoTotal << endl;
     
     //Los ciclos de el programa 
+    for (int i=6; i<=12;i+=2)
+    cout<< i << endl;
      return 0;
 }
 
