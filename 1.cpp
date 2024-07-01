@@ -27,7 +27,7 @@ int main() {
     getline(cin, rifCedula);
 
     cout << "Ingrese la cantidad de refrescos a comprar: ";
-    cin >> cantidadRefrescos;
+    getlinecin >> cantidadRefrescos;
     cout << "Ingrese la cantidad de maltas a comprar: ";
     cin >> cantidadMaltas;
 
@@ -48,7 +48,7 @@ int main() {
 
     // ahora el monto total a pagar es lo que vamos a calcular
     float montoTotal = totalRefrescos + totalMaltas;
-
+    // Imprimir la factura
     cout << "\n--- Factura de la Compra ---\n";
     cout << "Cliente: " << razonSocial << endl;
     cout << "Cedula/Rif: " << rifCedula << endl;
