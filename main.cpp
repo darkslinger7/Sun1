@@ -43,13 +43,14 @@ int main() {
     // ahora el monto total a pagar es lo que vamos a calcular
     float montoTotal = totalRefrescos + totalMaltas;
 
-    cout << "\n--- Resumen de compra ---\n";
+    cout << "\n--- Factura de la Compra ---\n";
     cout << "Cliente: " << razonSocial << endl;
-    cout << "RIF/Cedula: " << rifCedula << endl;
-    cout << "Total a pagar por refrescos: $" << totalRefrescos << endl;
-    cout << "Total a pagar por maltas: $" << totalMaltas << endl;
+    cout << "Cedula/Rif: " << rifCedula << endl;
+    cout << "Total a pagar por Refrescos: $" << totalRefrescos << endl;
+    cout << "Total a pagar por Raltas: $" << totalMaltas << endl;
     cout << "Monto total a pagar: $" << montoTotal << endl;
-
+    
+    //Los ciclos de el programa 
      return 0;
 }
 
